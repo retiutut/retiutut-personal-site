@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Richard Waltman',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://retiutut.github.io',
+  baseUrl: '/retiutut-personal-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
