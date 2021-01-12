@@ -2,7 +2,7 @@ module.exports = {
   title: 'Richard Waltman',
   tagline: 'Welcome to my personal site and blog!',
   url: 'https://retiutut.github.io',
-  baseUrl: '/retiutut-personal-site/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
