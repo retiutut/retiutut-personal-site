@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Richard Waltman',
-  tagline: 'The tagline of my site!',
+  tagline: 'Welcome to my personal site and blog!',
   url: 'https://retiutut.github.io',
   baseUrl: '/retiutut-personal-site/',
   onBrokenLinks: 'throw',
