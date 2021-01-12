@@ -12,7 +12,7 @@ module.exports = {
     navbar: {
       title: 'Richard Waltman',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Retiutut Logo',
         src: 'img/logo.svg',
       },
       items: [
