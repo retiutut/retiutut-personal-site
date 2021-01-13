@@ -81,6 +81,8 @@ function Home() {
         </Carousel>
       </header>
       <main>
+        <div className="container">
+        </div>
         <div>
           {features && features.length > 0 && (
             <section className={styles.features}>
