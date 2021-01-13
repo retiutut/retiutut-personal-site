@@ -6,9 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-
 const features = [
   {
     title: 'Easy to Use',
@@ -64,38 +61,34 @@ function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={styles.heroBanner}>
-        <Carousel className={styles.homeCarousel} showStatus={false} showThumbs={false} autoPlay={true} interval={3000}>
-          <div>
-              <img src={"static/img/banner_1.jpg"} />
-              <p className="legend">Img 1</p>
+      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        <div className="container">
+          <h1 className="hero__title">{siteConfig.title}</h1>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/')}>
+              Get Started
+            </Link>
           </div>
-          <div>
-              <img src="static/img/banner_1.jpg" />
-              <p className="legend">Img 2</p>
-          </div>
-          <div>
-              <img src="static/img/banner_1.jpg" />
-              <p className="legend">Img 3</p>
-          </div>
-        </Carousel>
+        </div>
       </header>
       <main>
-        <div className="container">
-        </div>
-        <div>
-          {features && features.length > 0 && (
-            <section className={styles.features}>
-              <div className="container">
-                <div className="row">
-                  {features.map((props, idx) => (
-                    <Feature key={idx} {...props} />
-                  ))}
-                </div>
+        {features && features.length > 0 && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
               </div>
-            </section>
-          )}
-        </div>
+            </div>
+          </section>
+        )}
       </main>
     </Layout>
   );

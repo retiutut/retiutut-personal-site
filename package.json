@@ -1,6 +1,6 @@
 {
   "name": "retiutut-personal-site",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -17,7 +17,8 @@
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-responsive-carousel": "^3.2.11"
   },
   "browserslist": {
     "production": [
