@@ -67,15 +67,15 @@ function Home() {
       <header className={styles.heroBanner}>
         <Carousel className={styles.homeCarousel} showStatus={false} showThumbs={false} autoPlay={true} interval={3000}>
           <div>
-              <img src={"static/img/banner_1.jpg"} />
+              <img src={"img/banner_1.jpg"} />
               <p className="legend">Img 1</p>
           </div>
           <div>
-              <img src="static/img/banner_1.jpg" />
+              <img src="img/banner_1.jpg" />
               <p className="legend">Img 2</p>
           </div>
           <div>
-              <img src="static/img/banner_1.jpg" />
+              <img src="img/banner_1.jpg" />
               <p className="legend">Img 3</p>
           </div>
         </Carousel>
