@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/djwave-formal-internet2favicon.ico',
   organizationName: 'retiutut', // Usually your GitHub org/user name.
   projectName: 'retiutut-personal-site', // Usually your repo name.
   themeConfig: {
@@ -13,7 +13,7 @@ module.exports = {
       title: 'Richard Waltman',
       logo: {
         alt: 'Retiutut Logo',
-        src: 'img/logo.svg',
+        src: 'img/djwave formal internet2 200x200.jpg',
       },
       items: [
         {
