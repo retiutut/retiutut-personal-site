@@ -45,3 +45,8 @@
   width: 100%;
   display: table-row;
 }
+
+.legendP {
+  width: 50% !important;
+  margin-left: -25% !important;
+}

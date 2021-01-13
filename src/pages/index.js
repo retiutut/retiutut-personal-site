@@ -68,15 +68,15 @@ function Home() {
         <Carousel className={styles.homeCarousel} showStatus={false} showThumbs={false} autoPlay={true} interval={3000}>
           <div>
               <img src={"img/banner_1.jpg"} />
-              <p className="legend">Img 1</p>
+              {/*<p className={clsx('legend', styles.legendP)}>Img 1</p>*/}
           </div>
           <div>
               <img src="img/banner_1.jpg" />
-              <p className="legend">Img 2</p>
+              {/*<p className={clsx('legend', styles.legendP)}>Img 2</p>*/}
           </div>
           <div>
               <img src="img/banner_1.jpg" />
-              <p className="legend">Img 3</p>
+              {/*<p className={clsx('legend', styles.legendP)}>Img 3</p>*/}
           </div>
         </Carousel>
       </header>
