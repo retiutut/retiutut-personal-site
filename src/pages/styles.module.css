@@ -9,7 +9,8 @@
   padding: 4rem 0;
   text-align: center;
   position: relative;
-  overflow: hidden;
+  width: 100%;
+  display: table;
 }
 
 @media screen and (max-width: 966px) {
@@ -25,7 +26,6 @@
 }
 
 .features {
-  display: flex;
   align-items: center;
   padding: 2rem 0;
   width: 100%;
@@ -34,4 +34,12 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.homeCarousel {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: table-row;
 }
