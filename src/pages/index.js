@@ -65,7 +65,7 @@ function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={styles.heroBanner}>
-        <Carousel className={styles.homeCarousel} showStatus={false} showThumbs={false} autoPlay={true} interval={3000}>
+        <Carousel className={styles.homeCarousel} showStatus={false} showThumbs={false} autoPlay={true} interval={5000} infiniteLoop={true} stopOnHover={true} transitionTime={200}>
           <div>
               <img src={"img/retiutut_banner_1.png"} alt="Banner 1"/>
               {/*<p className={clsx('legend', styles.legendP)}>Img 1</p>*/}
