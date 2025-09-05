@@ -1,33 +1,53 @@
-# Website
+# retiutut-personal-site
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+[![Deploy to GitHub Pages](https://github.com/retiutut/retiutut-personal-site/actions/workflows/deploy.yml/badge.svg)](https://github.com/retiutut/retiutut-personal-site/actions/workflows/deploy.yml)
+
+This is a personal documentation and blog site built with [Docusaurus 3](https://docusaurus.io/), deployed to GitHub Pages at [docs.richardwaltman.com](https://docs.richardwaltman.com).
+
+## Requirements
+
+- Node.js >= 18 (tested with Node 20)
+- Yarn (dependency management)
 
 ## Installation
 
-```console
+```sh
 yarn install
 ```
 
 ## Local Development
 
-```console
+```sh
 yarn start
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+This starts a local dev server. Most changes are reflected live without restart.
 
 ## Build
 
-```console
+```sh
 yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Generates static content into the `build` directory.
 
 ## Deployment
 
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+Deployment is handled automatically via GitHub Actions on every push to `master`.
+
+To deploy manually:
+
+```sh
+yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This builds and pushes the site to the `gh-pages` branch for GitHub Pages hosting.
+
+## Domain
+
+The site is available at: https://richardwaltman.com
+
+## Notes
+
+- Dependency versions are managed with `yarn.lock` (do not use npm).
+- No license file is present; all rights reserved unless otherwise stated.
