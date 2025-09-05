@@ -9,6 +9,11 @@ module.exports = {
   organizationName: 'retiutut', // Usually your GitHub org/user name.
   projectName: 'retiutut-personal-site', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'Richard Waltman',
       logo: {
